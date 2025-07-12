@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishal Penuly - Developer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-purple-900 to-blue-900 text-white transition-all duration-300" id="body">
+  <nav class="flex justify-between items-center px-6 py-4 bg-transparent">
+    <ul class="flex gap-6 text-lg font-medium">
+      <li><a href="#about" class="hover:text-gray-300">About</a></li>
+      <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+      <li><a href="#projects" class="hover:text-gray-300">Projects</a></li>
+      <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+    </ul>
+    <button id="darkToggle" class="bg-white text-black px-3 py-1 rounded-full">Toggle Dark</button>
+  </nav>
+
+  <header class="text-center py-24">
+    <h1 class="text-4xl font-bold">Hi, I’m Vishal Penuly</h1>
+    <p class="text-xl mt-2 text-gray-300">Python & ML Developer</p>
+    <a href="#projects" class="mt-6 inline-block px-5 py-2 bg-indigo-600 hover:bg-indigo-700 rounded-full transition">View Projects</a>
+  </header>
+
+  <section id="about" class="max-w-3xl mx-auto py-10 px-4">
+    <h2 class="text-2xl font-semibold mb-4 border-b border-gray-500 inline-block">About Me</h2>
+    <p class="text-gray-200">I’m a passionate developer skilled in Python, Machine Learning, and web development. I enjoy building smart, practical applications that solve real-world problems. I’ve worked on projects using OpenCV, Tesseract, and MediaPipe.</p>
+  </section>
+
+  <section id="skills" class="max-w-3xl mx-auto py-10 px-4">
+    <h2 class="text-2xl font-semibold mb-4 border-b border-gray-500 inline-block">Skills</h2>
+    <ul class="list-disc list-inside text-gray-200">
+      <li>Languages: Python, C++, C</li>
+      <li>Web Dev: HTML5, CSS3, JavaScript</li>
+      <li>Database: SQL</li>
+      <li>Tools: Git, OpenCV, MediaPipe, Tesseract OCR</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="max-w-5xl mx-auto py-10 px-4">
+    <h2 class="text-2xl font-semibold mb-6 border-b border-gray-500 inline-block">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-4 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold">Air Canvas</h3>
+        <p>Draw on screen using finger gestures via MediaPipe and OpenCV.</p>
+      </div>
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-4 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold">Handwritten Digit Recognition</h3>
+        <p>MNIST-based digit prediction using machine learning models.</p>
+      </div>
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-4 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold">Number Plate Recognition</h3>
+        <p>Uses Tesseract OCR and OpenCV to read license plates.</p>
+      </div>
+      <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-4 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold">Screen Recorder</h3>
+        <p>Python script to record desktop screens with audio.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="max-w-3xl mx-auto py-10 px-4">
+    <h2 class="text-2xl font-semibold mb-4 border-b border-gray-500 inline-block">Contact</h2>
+    <p>Email: painulyvishal@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/vishalpenuly" target="_blank" class="text-blue-300 hover:underline">vishalpenuly</a></p>
+  </section>
+
+  <footer class="text-center text-sm py-6 text-gray-400">© 2025 Vishal Penuly</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
